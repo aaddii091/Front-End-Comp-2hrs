@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="//db.onlinewebfonts.com/c/2c3a68785e409705f21ad374db37f960?family=Trajanus+Roman"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://kit.fontawesome.com/c14680c7b5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Front End Competition</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="navbar">
+        <div class="nav_img">
+          <img src="img/diamond .png" alt="" />
+        </div>
+        <div class="nav_cont">
+          <ul id="burger">
+            <i
+              class="fa-solid fa-xmark crosss"
+              id="cross1"
+              onclick="push()"
+            ></i>
+            <li class="hover-underline-animation"> Home</li >
+            <li class="hover-underline-animation"><a href="#slider">Healthcare</a> </li>
+            <li class="hover-underline-animation"><a href="#loc">Location</a> </li>
+            <li class="hover-underline-animation"><a href="#footer">About Us</a> </li>
+          </ul>
+          <i class="fa-solid fa-bars hamburger" onclick="pop()"></i>
+        </div>
+      </div>
+      <div class="header_text">
+        <h1>Welcome To Healthify</h1>
+        <h3>We Care For<span> You</span></h3>
+       
+
+            <button> <a href="#slider"> View More</a>
+            </button>
+       
+      </div>
+    </section>
+
+
+    <section id="slider" data-aos="fadeInUp">
+        <div class="our">
+            <h1>OUR SERVICES</h1>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+              <img
+                src="/slider/Screenshot 2023-01-13 145710.png"
+                alt=""
+                class=""
+              />
+            </div>
+            <div class="swiper-slide slide1">
+              <img src="/slider/Free Health Calculators..png" alt="" />
+            </div>
+            <div class="swiper-slide slide1">
+              <img src="/slider/Screenshot 2023-01-13 145212.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+   <section class="location" id="loc">
+    <h1>LOCATION</h1>
+    <div class="box">
+        <div class="textbox" data-aos="fade-right">
+            <h1>Our Location</h1>
+            <h3></h3>
+            <p>
+                Address: B-22, Rasoolpur Nawada, <br/> D Block, Sector 62, Noida, Uttar Pradesh
+            </p>
+            <button><a target="_blank" href="https://www.google.com/search?q=fortis%20hospital&sxsrf=AJOqlzWOyb6hno5DhpjUvurEF85BqRtdKQ:1675845572458&ei=u1_jY_H0I_ep4-EPj4yQsAE&gs_ssp=eJzj4tLP1TcwMs_NSzNRYDRgdGDw4k_LLyrJLFbIyC8uyCxJzAEAlVgJ9A&oq=fortis+hos&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMg4ILhCABBCxAxDHARDRAzILCC4QgAQQxwEQrwEyCwguEIAEEMcBEK8BMggIABCABBCxAzIICAAQgAQQsQMyCwguEIAEEMcBEK8BMggIABCABBDJAzIFCAAQkQIyEQguEIAEELEDEIMBEMcBEK8BMgsIABCxAxCDARCRAjoKCAAQRxDWBBCwAzoNCAAQRxDWBBDJAxCwAzoICAAQkgMQsAM6BwgAELADEEM6DQgAEOQCENYEELADGAE6EgguEMcBENEDEMgDELADEEMYAjoPCC4Q1AIQyAMQsAMQQxgCOgQIABBDOg4ILhDHARCxAxDRAxCABDoOCC4QrwEQxwEQsQMQgAQ6CwguEK8BEMcBEIAEOgUIABCABDoRCC4QgwEQrwEQxwEQsQMQgAQ6CwgAEIAEELEDEIMBSgQIQRgASgQIRhgBUMEBWLwGYK4RaAFwAXgAgAHFA4gBmQuSAQcyLTEuMi4xmAEAoAEByAETwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4&tbm=lcl&rflfq=1&num=10&rldimm=14000934615626065736&lqi=Cg9mb3J0aXMgaG9zcGl0YWwiA4gBAUjy-q67ka6AgAhaGRAAEAEYABgBIg9mb3J0aXMgaG9zcGl0YWySAQhob3NwaXRhbJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOMU0yRmhaV2RuUlJBQqoBNxABGh4QASIaxzspAjZ-KcmWoMJwnIMfqmFpTB0F7P15_78qEyIPZm9ydGlzIGhvc3BpdGFsKAA&ved=2ahUKEwi_vK2gw4X9AhUv9zgGHVSWAX4QvS56BAhuEAE&sa=X&rlst=f#rlfi=hd:;si:14000934615626065736,l,Cg9mb3J0aXMgaG9zcGl0YWwiA4gBAUjy-q67ka6AgAhaGRAAEAEYABgBIg9mb3J0aXMgaG9zcGl0YWySAQhob3NwaXRhbJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOMU0yRmhaV2RuUlJBQqoBNxABGh4QASIaxzspAjZ-KcmWoMJwnIMfqmFpTB0F7P15_78qEyIPZm9ydGlzIGhvc3BpdGFsKAA;mv:[[28.7286574,77.5544449],[28.3721134,77.1381006]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4">Open Maps</a> </button>
+        </div>
+        <div class="map" data-aos="fade-left">
+            <div class="imgok">
+                <img src="img/Screenshot 2023-02-08 140056.png" alt="">
+
+            </div>
+        </div>
+    </div>
+   </section>
+      <section id="feature" data-aos="fade-in" data-aos-duration="3000">
+      <div class="feature_sec2">
+        <img src="img/features/f1.png" alt="" />
+        <h5>Free Shipping</h5>
+      </div>
+      <div class="feature_sec2">
+        <img src="img/features/f2.png" alt="" />
+        <h5>Fast delivery</h5>
+      </div>
+      <div class="feature_sec2">
+        <img src="img/features/f3.png" alt="" />
+        <h5>Save Money</h5>
+      </div>
+      <div class="feature_sec2">
+        <img src="img/features/f4.png" alt="" />
+        <h5>Promotions</h5>
+      </div>
+      <div class="feature_sec2">
+        <img src="img/features/f5.png" alt="" />
+        <h5>Happy Sell</h5>
+      </div>
+      <div class="feature_sec2">
+        <img src="img/features/f6.png" alt="" />
+        <h5>F24/7 Support</h5>
+      </div>
+    </section>
+    <section id="footer">
+        <footer>
+          <div class="footer">
+            <section data-aos="fade-right">
+              <h3>Healthify</h3>
+              <p class="footer_text">We Care For You</p>
+            </section>
+            <section data-aos="fade-right">
+              <h3>LINKS</h3>
+              <a href="#">Home</a>
+              <a href="#">About Us</a>
+              <a href="#">Blog</a>
+              <a href="#">Contact Us</a>
+            </section>
+            <section data-aos="fade-left">
+              <h3>OTHER</h3>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Cookie Policy</a>
+            </section>
+            <section data-aos="fade-left">
+              <h3>ANY QUESTIONS?</h3>
+              <a href="email:support@gmail.com"
+                ><span><i class="fa fa-envelope"></i></span
+                ><span>aaddii091@gamil.com</span></a
+              >
+              <a href="tel:xxxxxxxxx"
+                ><span><i class="fa fa-phone"></i></span
+                ><span>(+91)-80762-49631</span></a
+              >
+            </section>
+          </div>
+        </footer>
+        <div class="sub-footer">
+          Copyright ©2021 All rights reserved | Healthify
+        </div>
+      </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 0, // offset (in px) from the original trigger point
+        delay: 100,
+        duration: 2000,
+      });
+    </script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  
+   
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        speed: 1000,
+        loop: Infinity,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+    <script src="/index.js"></script>
+  </body>
+</html>
